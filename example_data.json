@@ -1,0 +1,96 @@
+{
+    "data": {
+      "past": {
+        "t": [],
+        "c": [],
+        "o": [],
+        "h": [],
+        "l": [],
+        "v": []
+      },
+      "post": "ENCRYPTED_DATA (past data format)"
+    },
+    "metadata": {
+      "position": {
+        "direction": "long_position | short_position",
+        "takeProfit": 0.03,
+        "stopLoss": 0.015,
+        "bars": 10
+      },
+      "timeframe": "5",
+      "solution": "ENCRYPTED_DATA ({datatime, pair, outcome})"
+    }
+  }
+
+  {
+    "data": {
+        "past": {
+            "t": [],
+            "c": [],
+            "o": [],
+            "h": [],
+            "l": [],
+            "v": []
+        },
+        "post": {
+            "t": [],
+            "c": [],
+            "o": [],
+            "h": [],
+            "l": [],
+            "v": []
+        }
+    },
+    "metadata": {
+        "position": {
+            "direction": "",
+            "takeProfit": 0,
+            "stopLoss": 0,
+            "bars": 10
+        },
+        "timeframe": "",
+        "solution": {
+            "datatime": "",
+            "pair": "",
+            "outcome": ""
+        }
+    }
+}
+
+- Data
+    - Past candles: {time, close, open, high, low, volume}
+    - Post candles (ENCRYPTED): {time, close, open, high, low, volume}
+- Metadata
+    - Timeframe: 5 Minutes
+    - Position:
+        - Side: LONG | SHORT
+        - Take profit: 3%
+        - Stop loss: 1.5%
+        - Bars: 10
+    - Solution (ENCRYPTED)
+        - Datetime: 2021/12/01 05:00 AM
+        - Pair: BTCUSDC
+        - Outcome: -50% (% Loss: 2.5% * 50% = 1.25%)
+{
+    "data": {
+        "past": {
+        "t": [],
+        "c": [],
+        "o": [],
+        "h": [],
+        "l": [],
+        "v": []
+        },
+        "post": "ENCRYPTED_DATA (past data format)"
+    },
+    "metadata": {
+        "position": {
+        "direction": "long_position | short_position",
+        "takeProfit": 0.03,
+        "stopLoss": 0.015,
+        "bars": 10
+        },
+        "timeframe": "5",
+        "solution": "ENCRYPTED_DATA ({datatime, pair, outcome})"
+    }
+    }
