@@ -5,7 +5,6 @@ Uses:
 - [Python](https://www.python.org/)
 - Linting with [flake8](https://flake8.pycqa.org/en/latest/)
 - Formatting with [Prettier](https://prettier.io/)
-- Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
 
 ## Running the generator locally
 
