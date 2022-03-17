@@ -145,14 +145,14 @@ while True:
         candles = []
         candles_solution = []
 
-        candle = {
-            "time": 0,
-            "low": 0,
-            "high": 0,
-            "open": 0,
-            "close": 0,
-            "volume": 0
-        }
+        # candle = {
+        #     "time": 0,
+        #     "low": 0,
+        #     "high": 0,
+        #     "open": 0,
+        #     "close": 0,
+        #     "volume": 0
+        # }
 
         position = {
             "direction": "",
@@ -172,6 +172,7 @@ while True:
 
         # TIME, LOW, HIGH, OPEN, CLOSE, VOLUME
         for TLHOCV in past_klines_of_the_random_pair:
+            candle = {}
             candle["time"] = TLHOCV[0]
             candle["low"] = float(TLHOCV[3])
             candle["high"] = float(TLHOCV[2])
@@ -186,6 +187,7 @@ while True:
                 [TOHLC[0], TOHLC[1], TOHLC[2], TOHLC[3], TOHLC[4], TOHLC[5]])
         # TIME, LOW, HIGH, OPEN, CLOSE, VOLUME
         for TLHOCV in post_klines_of_the_random_pair:
+            candle = {}
             candle["time"] = TLHOCV[0]
             candle["low"] = float(TLHOCV[3])
             candle["high"] = float(TLHOCV[2])
