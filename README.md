@@ -14,7 +14,7 @@ It would only be necessary to implement listenExercise.
 4. Config the APIs from nft.storage on `storage.ts`, and the api key from TRAINER_PROGRAM_ID on `constants.ts`.
 5. `npm install` to install the node modules.
 6. `npm run build` to build the program.
-7. `npm start` to run the exercise generator.
+7. `npm start <modality> <number of exersice>`modality 1:scalping, 2:intraday, 3:Swing, 4:Random. To run the exercise generator.
 8. The json files, from the exercises will be save in `./exercises`, `./solutions` and `./key ` from the wallet.
 
 -------------
